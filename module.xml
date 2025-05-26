@@ -25,7 +25,7 @@
     <FileCopy Name="data/fhir/" Target="${mgrdir}test-data-fhir/"/>
       <WebApplication
         Url="/fhirUI"
-        SourcePath="/fhirUI"
+        SourcePath="/usr/irissys/csp/fhirUI"
         DeployPath="{$cspdir}fhirUI"
         ServeFiles="1"
         Recurse="1"
